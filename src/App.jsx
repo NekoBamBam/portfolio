@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="home" element={<Home />} />
           <Route path="skills" element={<Skills />} />
           <Route path="work" element={<Work />} />
         </Route>
@@ -20,5 +20,6 @@ function App() {
     </BrowserRouter>
   );
 }
+
 
 export default App;
