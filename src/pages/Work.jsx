@@ -2,7 +2,7 @@ import React from 'react'
 
 function Work() {
   return (
-    <div>Work</div>
+    <div>No</div>
   )
 }
 
