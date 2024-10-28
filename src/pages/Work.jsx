@@ -1,8 +1,11 @@
 import React from 'react'
+import LinksWork from '../components/LinksWork'
 
 function Work() {
   return (
-    <div>No</div>
+    <div>
+      {<LinksWork/>}
+    </div>
   )
 }
 

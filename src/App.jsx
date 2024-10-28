@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes,useLocation } from "react-router-dom";
 import "./App.css";
 import Layout from "./layout/Layout";
 import Contact from "./pages/Contact";
@@ -7,12 +7,9 @@ import Skills from "./pages/Skills";
 import Work from "./pages/Work";
 import NotFound from "./pages/notfound";
 
-
-
 function App() {
-
   return (
-    
+    <div>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -24,8 +21,9 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    
+    </div>
   );
 }
-
 
 export default App;
