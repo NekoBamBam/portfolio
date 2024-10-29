@@ -23,7 +23,7 @@ const routes = [
 
 function Navbar() {
   return (
-    <nav className="w-full h-16 sticky top-0 bg-[#be0001] text-[#f0f0f0] shadow-md ">
+    <nav className="w-full h-16 sticky top-0 bg-[#be0001] text-[#f0f0f0] bg-transparent text-stroke">
       <ul className="flex justify-evenly items-center h-full">
         {routes.map(({ path, label, icon }, index) => (
           <li key={index}>

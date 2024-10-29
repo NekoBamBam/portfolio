@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 export default function Layout() {
   return (
-    <div className="bg-[#484848] antialiased  h-screen flex flex-col">
+    <div className="bg-[#fffefe] antialiased  h-screen flex flex-col">
       <div className="lg:sticky top-0 z-50">
       <Navbar />
         

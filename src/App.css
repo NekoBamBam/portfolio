@@ -1,0 +1,4 @@
+.text-stroke {
+    -webkit-text-stroke: 2px black;
+    color: white; /* Cambia esto al color de relleno que desees */
+  }

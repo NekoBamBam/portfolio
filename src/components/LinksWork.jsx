@@ -1,36 +1,48 @@
 import React from 'react'
 import poke from "../assets/poke.png"
 
-export const ClickImg = () => {
-  return(
-    <a
-      href="https://tu-enlace.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block w-full max-w-xs mx-auto overflow-hidden transition-transform duration-200 transform hover:scale-105"
+export const ClickImg = [
+  {
+    img: poke,
+    href: "https://github.com/NekoBamBam/pokemon",
 
-    >
-      <img
-        src="https://tu-imagen.com/imagen.jpg"
-        alt="Descripción de la imagen"
-        className="w-full h-auto rounded-lg shadow-lg"
-      />
-    </a>
-  )
-}
+  }
+]
 
 
 
 
 
-
-
-function LinksWork() {
+function Works() {
   return (
-    <a>
-      
-    </a>
-  )
+    <div>
+      {ClickImg.map(({ img,href}, index) => {
+        return (
+          <div className="gap-4">
+            <div
+              key={index}
+              className=" flex card card-side bg-[#f0f0f0] text-[#2f003f] shadow-xl border "
+            >
+              <figure className="ml-6">
+                <img className="h-40 w-40 " src={img} alt="" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">{data} </h2>
+                <span className="flex flex-row">{icon}</span>
+                <p>{datas} </p>
+                <div className="card-actions justify-end">
+                  <a href={href} target="_blank">
+                    <button className="btn btn-neutral text-white">
+                      Watch👀
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
-
 export default LinksWork
