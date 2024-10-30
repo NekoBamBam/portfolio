@@ -9,10 +9,6 @@ export const ClickImg = [
   }
 ]
 
-
-
-
-
 function Works() {
   return (
     <div>
@@ -21,18 +17,18 @@ function Works() {
           <div className="gap-4">
             <div
               key={index}
-              className=" flex card card-side bg-[#f0f0f0] text-[#2f003f] shadow-xl border "
+              className=" bg-[#f0f0f0] text-[#2f003f] shadow-xl "
             >
-              <figure className="ml-6">
-                <img className="h-40 w-40 " src={img} alt="" />
+              <figure className="ml-6 ">
+                <img className="h-1/3 w-1/3 " src={img} alt="" />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">{data} </h2>
-                <span className="flex flex-row">{icon}</span>
-                <p>{datas} </p>
-                <div className="card-actions justify-end">
+                <h2 className="card-title"></h2>
+                <span className="flex flex-row"></span>
+                <p></p>
+                <div className="card-actions justify-start">
                   <a href={href} target="_blank">
-                    <button className="btn btn-neutral text-white">
+                    <button className="btn btn-neutral bg-transparent text-black">
                       Watch👀
                     </button>
                   </a>
@@ -45,4 +41,4 @@ function Works() {
     </div>
   );
 }
-export default LinksWork
+export default Works

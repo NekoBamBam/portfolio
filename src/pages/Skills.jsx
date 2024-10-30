@@ -4,6 +4,7 @@ import calamardo from "../assets/calamardo.gif"
 function Skills() {
   return (
     <div>
+      <img src={calamardo} alt="" />
       <div
         className="radial-progress text-blue-700 bg-white"
         style={{ "--value": 70 }}
