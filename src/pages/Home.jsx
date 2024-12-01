@@ -1,24 +1,15 @@
 import React from 'react'
-import fondo from "../assets/astronautafondo.mp4"
+import fondo from "../assets/zoro1.gif"
 import { Link } from 'react-router-dom'
 
 
 function Home() {
   return (
     <div
-      className="hero h-full w-full"
+      className="hero h-full w-full bg-[#474755] "
     >
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover"
-      >
-        <source src={fondo} type="video/mp4" />
-        Tu navegador no soporta videos de fondo.
-      </video>
-      <div className="hero-overlay bg-opacity-50"></div>
+      <img src={fondo} alt="" />
+      <div className="hero-overlay bg-opacity-15"></div>
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">Bienvenido!</h1>
