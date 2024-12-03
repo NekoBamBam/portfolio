@@ -5,7 +5,7 @@ const MailButton = () => {
  }
 const Footer = () => {
   return (
-    <footer className="bg-[#95C623] text-[#EFE7DA] py-10 mt-16 ">
+    <footer className="bg-[#357c59] text-[#EFE7DA] py-10 mt-16 ">
       <div className="container mx-auto px-6 ">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           {/* Información de contacto */}
@@ -15,7 +15,7 @@ const Footer = () => {
               Puedes escribirme a:{" "}
               <a
                 href="mailto:correo@dominio.com"
-                className="text-[#E55812]  hover:underline"
+                className="text-[#9b3226] hover:text-[#d39152] hover:underline"
               >
                 coriannicolas21@gmail.com
               </a>
@@ -24,21 +24,21 @@ const Footer = () => {
 
           {/* Enlaces */}
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10 text-center">
-            <Link to="/" className="hover:text-[#E55812] hover:underline">
+            <Link to="/" className="hover:text-[#d39152] hover:underline">
               Inicio
             </Link>
             <Link
               to="/skills"
-              className="hover:text-[#E55812] hover:underline"
+              className="hover:text-[#d39152] hover:underline"
             >
               Habilidades
             </Link>
-            <Link to="/work" className="hover:text-[#E55812] hover:underline">
+            <Link to="/work" className="hover:text-[#d39152] hover:underline">
               Trabajo
             </Link>
             <Link
               to="/contact"
-              className="hover:text-[#E55812] hover:underline"
+              className="hover:text-[#d39152] hover:underline"
             >
               Contacto
             </Link>
@@ -50,7 +50,7 @@ const Footer = () => {
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#E55812] "
+              className="hover:text-[#d39152] "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const Footer = () => {
               href="https://www.linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#E55812] "
+              className="hover:text-[#d39152] "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

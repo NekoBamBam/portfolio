@@ -26,7 +26,7 @@ function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="w-full h-16 sticky top-0 bg-[#002626] text-white text-lg shadow-lg z-50">
+    <nav className="w-full h-16 sticky top-0 bg-[#173b3b] text-white text-lg shadow-lg z-50">
       <ul className="flex justify-evenly items-center h-full">
         {routes.map(({ path, label, icon }, index) => (
           <li key={index} className="relative">
@@ -35,8 +35,8 @@ function Navbar() {
               className={`flex items-center gap-2 px-4 py-2 transition-all duration-300 rounded-md 
                 ${
                   location.pathname === path
-                    ? "text-[#95C623] text-xl underline underline-offset-8"
-                    : "text-white hover:text-[#95C623]"
+                    ? "text-[#04cc9c] text-xl underline underline-offset-8"
+                    : "text-white hover:text-[#04cc9c]"
                 }`}
             >
               {icon}

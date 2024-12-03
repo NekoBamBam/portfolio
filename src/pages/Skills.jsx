@@ -14,39 +14,41 @@ const skills = [
 
 function SkillsPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white flex flex-col items-center py-10">
-      <h1 className="text-4xl font-bold mb-8">My Skills</h1>
-      <p className="text-lg text-gray-400 mb-12 w-4/5 text-center">
-        Estas son algunas de mis habilidades técnicas y creativas, con un enfoque en desarrollo web y diseño intuitivo.
-      </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6">
-        {skills.map((skill, index) => (
-          <div
-            key={index}
-            className="flex flex-col items-center gap-4 bg-gray-800 p-6 rounded-lg shadow-lg"
-          >
-            <CircularProgressbar
-              value={skill.percentage}
-              text={`${skill.percentage}%`}
-              styles={buildStyles({
-                textSize: "16px",
-                pathColor: skill.color,
-                textColor: "#fff",
-                trailColor: "#444",
-              })}
-              className="w-24 h-24"
-            />
-            <h2 className="text-xl font-semibold">{skill.name}</h2>
-          </div>
-        ))}
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white flex flex-col">
+      {/* Contenido principal */}
+      <div className="flex-grow flex flex-col items-center py-10">
+        <h1 className="text-4xl font-bold mb-8 text-[#0daab7]">My Skills</h1>
+        <p className="text-lg text-gray-400 mb-12 w-4/5 text-center">
+          Estas son algunas de mis habilidades técnicas y creativas, con un enfoque en desarrollo web y diseño intuitivo.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6">
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center gap-4 bg-gray-800 p-6 rounded-lg shadow-lg"
+            >
+              <CircularProgressbar
+                value={skill.percentage}
+                text={`${skill.percentage}%`}
+                styles={buildStyles({
+                  textSize: "16px",
+                  pathColor: skill.color,
+                  textColor: "#fff",
+                  trailColor: "#444",
+                })}
+                className="w-24 h-24"
+              />
+              <h2 className="text-xl font-semibold">{skill.name}</h2>
+            </div>
+          ))}
+        </div>
       </div>
-     {/* Footer */}
-     <div className="w-full h-full">
-        <Footer />
-      </div> 
+
+      {/* Footer */}
+      <Footer />
     </div>
-    
   );
 }
+  
 
 export default SkillsPage;

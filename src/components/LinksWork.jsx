@@ -27,6 +27,7 @@ function Work() {
     <div className="min-h-screen bg-[#002626] py-12">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-[#95C623] mb-4">Mis Trabajos</h1>
+        
         <p className="text-lg text-[gray-500]">
           Aquí están algunos de los proyectos en los que he trabajado.
         </p>
@@ -42,18 +43,18 @@ function Work() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="object-cover h-48 w-full"
+                className="object-cover h-48 w-full "
               />
             </figure>
-            <div className="card-body">
-              <h2 className="card-title text-primary">{project.title}</h2>
+            <div className="card-body bg-[#0E4749] ">
+              <h2 className="card-title text-[#95C623] ">{project.title}</h2>
               <p>{project.description}</p>
               <div className="card-actions justify-end">
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary"
+                  className="btn btn-secondary"
                 >
                   Ver Proyecto
                 </a>

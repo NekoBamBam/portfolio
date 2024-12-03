@@ -93,10 +93,10 @@ function Links() {
           <div className="gap-4">
             <div
               key={index}
-              className="group flex card card-side bg-[#EFE7DA] text-[#002626] shadow-xl border "
+              className=" flex card card-side bg-[#EFE7DA] text-[#002626] shadow-xl border "
             >
               <figure className="ml-6 ">
-                <img className="h-40 w-40 object-cover transition-transform duration-500 transform group-hover:rotate-y-180" src={img} alt="" />
+                <img className="h-40 w-40 " src={img} alt="" />
               </figure>
               <div className="card-body ">
                 <h2 className="card-title">{data} </h2>
