@@ -6,3 +6,16 @@
   -1px 1px 0 black,
   1px 1px 0 black;
 }
+.gap-4 {
+  gap: 1.5rem; /* Incrementa el espaciado entre elementos */
+}
+
+.card {
+  margin-bottom: 1.5rem; /* Añade espacio entre las tarjetas */
+}
+
+
+.btn:hover {
+  background-color: #00b894; /* Color más llamativo en hover */
+  transition: background-color 0.3s ease;
+}

@@ -88,6 +88,7 @@ export const carta = [
 function Links() {
   return (
     <div>
+      
       {carta.map(({ img, href, data, datas, icon }, index) => {
         return (
           <div className="gap-4">
