@@ -19,7 +19,7 @@ const routes = [
   },
   { path: "/skills", label: "Skills" },
   { path: "/work", label: "Work" },
-  { path: "/contact", label: "Contact" },
+  { path: "/me", label: "Me" },
 ];
 
 function Navbar() {

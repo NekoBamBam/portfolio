@@ -14,7 +14,7 @@ const skills = [
 
 function SkillsPage() {
   return (
-    <div className=" bg-gradient-to-b from-gray-900 to-gray-800 text-white flex flex-col h-screen ">
+    <div className=" bg-gradient-to-b from-gray-900 to-gray-800 text-white flex flex-col">
       {/* Contenido principal */}
       <div className="flex-grow flex flex-col items-center py-10 ">
         <h1 className="text-4xl font-bold mb-8 text-[#0daab7]">My Skills</h1>
@@ -26,8 +26,8 @@ function SkillsPage() {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex flex-col items-center gap-4 bg-gray-800 p-6 rounded-lg shadow-md drop-shadow-md shadow-fuchsia-500
-                       transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl "
+              className={`flex flex-col items-center gap-4 bg-gray-800 p-6 rounded-lg shadow-md drop-shadow-md shadow-cyan-300
+                       transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl`}
             >
               <CircularProgressbar
                 value={skill.percentage}

@@ -15,7 +15,7 @@ const projects = [
     link: "https://github.com/tuUsuario/proyecto2",
   },
   {
-    title: "Proyecto 3",
+    title: "Calculadora",
     description: "Un proyecto con diseño avanzado y funcionalidad.",
     image: "https://via.placeholder.com/300",
     link: "https://github.com/tuUsuario/proyecto3",

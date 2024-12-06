@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 const ContactCards = () => {
   const contacts = [
@@ -10,7 +10,7 @@ const ContactCards = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
         {contacts.map((contact) => (
           <a
             key={contact.id}
@@ -29,3 +29,4 @@ const ContactCards = () => {
 };
 
 export default ContactCards;
+ */

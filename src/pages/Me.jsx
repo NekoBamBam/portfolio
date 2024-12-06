@@ -1,16 +1,21 @@
 import React from "react";
+import yo from "../assets/yo.jpg";
 
 function Me() {
   return (
-    <div className=" h-full w-full ">
-      <div><div className="avatar">
-  <div className="w-20 rounded">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-      alt="Tailwind-CSS-Avatar-component" />
-  </div>
-</div>
-        <h1>lor</h1>
+    <div className=" h-full w-full bg-gradient-to-b  from-gray-900 to-gray-800 ">
+      <div>
+        <div className="flex flex-row gap-5 items-center">
+          <div className="avatar ">
+            <div className="w-48 ml-10 mt-6 rounded-full flex flex-row ">
+              <img src={yo} alt="Tailwind-CSS-Avatar-component" />
+            </div>
+          </div>
+          <p className="text-white ">
+            Hola! Soy Coria Franco Nicolas,me gusta el diseño Web, aguante
+            gimnasia{" "}
+          </p>
+        </div>
         <ul className="timeline timeline-vertical ">
           <li>
             <div className="timeline-start timeline-box">
@@ -86,12 +91,16 @@ function Me() {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box">Programador Web CFL404</div>
+            <div className="timeline-end timeline-box">
+              Programador Web CFL404
+            </div>
             <hr />
           </li>
           <li>
             <hr />
-            <div className="timeline-start timeline-box">Tenicatura Progamación UTN</div>
+            <div className="timeline-start timeline-box">
+              Tenicatura Progamación UTN
+            </div>
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
