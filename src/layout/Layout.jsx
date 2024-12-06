@@ -6,13 +6,14 @@ export default function Layout() {
   return (
     <div className="bg-[#000000] antialiased  h-screen flex flex-col">
       <div className="lg:sticky top-0 z-50">
-      <Navbar />
-        
+        <Navbar />
       </div>
-      <div className="w-full h-full ">
+      <div className="w-full h-screen ">
         <Outlet />
       </div>
-      <Footer/>
+      <div className="">
+        <Footer />
+      </div>
     </div>
   );
 }

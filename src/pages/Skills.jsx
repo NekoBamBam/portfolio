@@ -14,20 +14,20 @@ const skills = [
 
 function SkillsPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white flex flex-col">
+    <div className=" bg-gradient-to-b from-gray-900 to-gray-800 text-white flex flex-col h-screen ">
       {/* Contenido principal */}
-      <div className="flex-grow flex flex-col items-center py-10">
+      <div className="flex-grow flex flex-col items-center py-10 ">
         <h1 className="text-4xl font-bold mb-8 text-[#0daab7]">My Skills</h1>
         <p className="text-lg text-gray-400 mb-12 w-4/5 text-center">
           Estas son algunas de mis habilidades técnicas y creativas, con un
           enfoque en desarrollo web y diseño intuitivo.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex flex-col items-center gap-4 bg-gray-800 p-6 rounded-lg shadow-lg 
-                       transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+              className="flex flex-col items-center gap-4 bg-gray-800 p-6 rounded-lg shadow-md drop-shadow-md shadow-fuchsia-500
+                       transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl "
             >
               <CircularProgressbar
                 value={skill.percentage}

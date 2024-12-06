@@ -24,9 +24,9 @@ const projects = [
 
 function Work() {
   return (
-    <div className="min-h-screen bg-[#002626] py-12">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 py-12 h-full">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-[#95C623] mb-4">Mis Trabajos</h1>
+        <h1 className="text-4xl font-bold text-[#0daab7] mb-4">Mis Trabajos y Contribuciones</h1>
         
         <p className="text-lg text-[gray-500]">
           Aquí están algunos de los proyectos en los que he trabajado.

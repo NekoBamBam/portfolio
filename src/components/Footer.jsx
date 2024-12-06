@@ -5,12 +5,12 @@ const MailButton = () => {
  }
 const Footer = () => {
   return (
-    <footer className="bg-[#357c59] text-[#EFE7DA] py-10 mt-16 ">
+    <footer className="bg-[#357c59] text-[#EFE7DA] py-10  ">
       <div className="container mx-auto px-6 ">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           {/* Información de contacto */}
-          <div className="text-center md:text-left">
-            <h2 className="text-2xl font-semibold">Contacto</h2>
+          <div className="text-center md:text-left flex place-items-end  h-full ">
+            <h2 className="text-2xl font-semibold items-center ">Contacto</h2>
             <p className="text-lg mt-0">
               Puedes escribirme a:{" "}
               <a
@@ -85,7 +85,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center mt-8 text-sm text-gray-400">
-          <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+          <p>&copy; 2024 Coria Franco Nicolas.</p>
         </div>
       </div>
     </footer>
