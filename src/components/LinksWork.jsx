@@ -1,24 +1,27 @@
 import React from "react";
 import sapu from "../assets/sapu.png"
+import poke from "../assets/poke.png"
+import calcu from "../assets/calcu.png"
+
 
 const projects = [
   {
     title: "SapuCraft",
-    description: "Una breve descripción de este proyecto increíble.",
+    description: "Esta pagina esta insipirada en un servidor de Minecraft con amigos.",
     image: sapu,
     link: "https://lawcito.github.io/minecraft-web/ ",
   },
   {
-    title: "Pokemon",
-    description: "Este es otro proyecto que muestra mi habilidad.",
-    image: "https://via.placeholder.com/300",
-    link: "https://github.com/tuUsuario/proyecto2",
+    title: "Pokemon (Proximamente)",
+    description: "Este es un gran juego (no me salió)",
+    image: poke,
+    link: "https://github.com/NekoBamBam/pokemon",
   },
   {
     title: "Calculadora",
-    description: "Un proyecto con diseño avanzado y funcionalidad.",
-    image: "https://via.placeholder.com/300",
-    link: "https://github.com/tuUsuario/proyecto3",
+    description: "Una pequeña calculadora realizada en el CFL",
+    image: calcu,
+    link: "https://nekobambam.github.io/CalcuCFL/",
   },
 ];
 

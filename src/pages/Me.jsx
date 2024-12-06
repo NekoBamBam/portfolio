@@ -12,8 +12,9 @@ function Me() {
             </div>
           </div>
           <p className="text-white ">
-            Hola! Soy Coria Franco Nicolas,me gusta el diseño Web, aguante
-            gimnasia{" "}
+            Hola! Soy Coria Franco Nicolas,me gusta el diseño Web,soy creativo,
+            me gusta aprender y emprender,no suelo llevarme mal con la gente y
+            por ultimo aguante a c r u y aguante gimnasia🐺.{" "}
           </p>
         </div>
         <ul className="timeline timeline-vertical ">
