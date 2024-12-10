@@ -17,9 +17,55 @@ const routes = [
     ),
     label: "Home",
   },
-  { path: "/skills", label: "Skills" },
-  { path: "/work", label: "Work" },
-  { path: "/me", label: "Me" },
+  {
+    path: "/skills",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-unlock-fill"
+        viewBox="0 0 16 16"
+      >
+        <path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2" />
+      </svg>
+    ),
+    label: "Skills",
+  },
+  {
+    path: "/work",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-briefcase"
+        viewBox="0 0 16 16"
+      >
+        <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5m1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0M1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5" />
+      </svg>
+    ),
+    label: "Work",
+  },
+  {
+    path: "/me",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-yin-yang"
+        viewBox="0 0 16 16"
+      >
+        <path d="M9.167 4.5a1.167 1.167 0 1 1-2.334 0 1.167 1.167 0 0 1 2.334 0" />
+        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M1 8a7 7 0 0 1 7-7 3.5 3.5 0 1 1 0 7 3.5 3.5 0 1 0 0 7 7 7 0 0 1-7-7m7 4.667a1.167 1.167 0 1 1 0-2.334 1.167 1.167 0 0 1 0 2.334" />
+      </svg>
+    ),
+    label: " Me",
+  },
 ];
 
 function Navbar() {
@@ -35,8 +81,8 @@ function Navbar() {
               className={`flex items-center gap-2 px-4 py-2 transition-all duration-300 rounded-md 
                 ${
                   location.pathname === path
-                    ? "text-[#04cc9c] text-xl underline underline-offset-8"
-                    : "text-white hover:text-[#04cc9c]"
+                    ? "text-[#d39152] text-xl underline underline-offset-8"
+                    : "text-white hover:text-[#d39152]"
                 }`}
             >
               {icon}

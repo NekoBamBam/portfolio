@@ -19,7 +19,7 @@ function Me() {
         </div>
         <ul className="timeline timeline-vertical ">
           <li>
-            <div className="timeline-start timeline-box">
+            <div className="timeline-start timeline-box text-white">
               Bloque de comando Minecraft
             </div>
             <div className="timeline-middle">
@@ -27,7 +27,7 @@ function Me() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="text-primary h-5 w-5"
+                className="text-[#04cc9c] h-5 w-5"
               >
                 <path
                   fillRule="evenodd"
@@ -36,16 +36,16 @@ function Me() {
                 />
               </svg>
             </div>
-            <hr className="bg-primary" />
+            <hr className="bg-[#04cc9c]" />
           </li>
           <li>
-            <hr className="bg-primary" />
+            <hr className="bg-[#04cc9c]" />
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="text-primary h-5 w-5"
+                className="text-[#04cc9c] h-5 w-5"
               >
                 <path
                   fillRule="evenodd"
@@ -54,18 +54,18 @@ function Me() {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box">Calculadora CFL</div>
-            <hr className="bg-primary" />
+            <div className="timeline-end timeline-box text-white">Calculadora CFL</div>
+            <hr className="bg-[#04cc9c]" />
           </li>
           <li>
-            <hr className="bg-primary" />
-            <div className="timeline-start timeline-box">SapuCraft!</div>
+            <hr className="bg-[#04cc9c]" />
+            <div className="timeline-start timeline-box text-white">SapuCraft!</div>
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="text-primary h-5 w-5"
+                className="text-[#04cc9c] h-5 w-5"
               >
                 <path
                   fillRule="evenodd"
@@ -74,7 +74,7 @@ function Me() {
                 />
               </svg>
             </div>
-            <hr />
+            <hr className="bg-[#04cc9c]" />
           </li>
           <li>
             <hr />
@@ -95,7 +95,7 @@ function Me() {
             <div className="timeline-end timeline-box">
               Programador Web CFL404
             </div>
-            <hr />
+            <hr className="" />
           </li>
           <li>
             <hr />

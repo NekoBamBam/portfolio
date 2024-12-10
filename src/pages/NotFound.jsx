@@ -1,26 +1,26 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import fondoerror from "../assets/astrofondo2.jpg"
+import React from "react";
+import { Link } from "react-router-dom";
+import errorImage from "../assets/luffy.jpg"; // Reemplaza con tu imagen
 
 const NotFound = () => {
   return (
-    <div className=' flex justify-center items-center h-full ' style={{
-      backgroundImage: `url(${fondoerror})` ,
-      backgroundRepeat: `no-repeat`,
-    }}>
-       <h1 className="text-9xl font-bold text-indigo-600">404</h1>
-       <h2 className="text-3xl md:text-5xl font-semibold mt-4">Página no encontrada</h2>
-       
-      <div>
-      <Link to="/"  >
-      <button className="absolute bottom-16 left-1/2 px-4 py-4 text-white bg-[#88a19f] rounded-lg hover:bg-black">
-        Regresar al inicio
-      </button>
+    <div className="h-screen flex flex-col justify-center items-center bg-gray-900 text-white">
+      <img
+        src={errorImage}
+        alt="404 Not Found"
+        className="w-3/4 max-w-md mb-6"
+      />
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">Página no encontrada</h1>
+      <p className="text-gray-400 mb-6 text-center">
+        Lo sentimos, no podemos encontrar la página que buscas.
+      </p>
+      <Link to="/">
+        <button className="px-6 py-3 bg-[#04cc9c] text-[#1d3031] font-semibold rounded-lg hover:bg-[#357c59] transition duration-300">
+          Volver al Inicio
+        </button>
       </Link>
-      </div>
     </div>
   );
 };
-
 
 export default NotFound;
