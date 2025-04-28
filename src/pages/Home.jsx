@@ -23,7 +23,7 @@ function Home() {
         </p>
         <Link to="/me">
           <button className="btn px-6 py-3 bg-[#04cc9c] text-[#1d3031] font-semibold rounded-lg hover:bg-[#357c59] transition duration-300">
-            Contáctame vía Email
+            Un poquito sobre mi.
           </button>
         </Link>
       </div>
