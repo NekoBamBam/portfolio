@@ -4,16 +4,21 @@ import Footer from "../components/Footer";
 
 export default function Layout() {
   return (
-    <div className="bg-[#000000] antialiased  h-screen flex flex-col">
+    <div className="bg-[#000000] antialiased min-h-screen flex flex-col">
+      {/* Navbar sticky arriba */}
       <div className="lg:sticky top-0 z-50">
         <Navbar />
       </div>
-      <div className="w-full h-screen ">
+
+      {/* Contenido que crece */}
+      <main className="flex-grow w-full">
         <Outlet />
-      </div>
-      <div className="">
+      </main>
+
+      {/* Footer pegado abajo */}
+      <footer>
         <Footer />
-      </div>
+      </footer>
     </div>
   );
 }

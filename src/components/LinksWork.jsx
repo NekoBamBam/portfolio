@@ -2,6 +2,7 @@ import React from "react";
 import sapu from "../assets/sapu.png"
 import poke from "../assets/poke.png"
 import calcu from "../assets/calcu.png"
+import tattoo from "../assets/tatu.png"
 
 
 const projects = [
@@ -12,16 +13,22 @@ const projects = [
     link: "https://lawcito.github.io/minecraft-web/ ",
   },
   {
-    title: "Pokemon (Proximamente)",
-    description: "Este es un gran juego (no me salió)",
-    image: poke,
-    link: "https://github.com/NekoBamBam/pokemon",
+    title: "Tattoo Web",
+    description: "Mi pagina personal de tattoo",
+    image: tattoo,
+    link: "https://nekobambam.github.io/tattoo-web/",
   },
   {
     title: "Calculadora",
     description: "Una pequeña calculadora realizada en el CFL",
     image: calcu,
     link: "https://nekobambam.github.io/CalcuCFL/",
+  },
+    {
+    title: "Pokemon (Proximamente)",
+    description: "Este es un gran juego (no me salió)",
+    image: poke,
+    link: "https://github.com/NekoBamBam/pokemon",
   },
 ];
 

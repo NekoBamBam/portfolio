@@ -5,10 +5,12 @@ import "react-circular-progressbar/dist/styles.css";
 const skills = [
   { name: "JavaScript", percentage: 85, color: "#f7df1e", link: "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Introduction" },
   { name: "React", percentage: 80, color: "#61dafb", link: "https://reactjs.org/" },
-  { name: "CSS", percentage: 90, color: "#264de4", link: "https://developer.mozilla.org/es/docs/Web/CSS" },
+  { name: "CSS", percentage: 80, color: "#264de4", link: "https://developer.mozilla.org/es/docs/Web/CSS" },
   { name: "Node.js", percentage: 75, color: "#3c873a", link: "https://nodejs.org/en/" },
   { name: "UI/UX Design", percentage: 70, color: "#ff5722", link: "https://www.interaction-design.org/literature/topics/ui-design" },
   { name: "SQL", percentage: 50, color: "#EF3E36", link: "https://datademia.es/blog/que-es-sql" },
+  { name: "C", percentage: 70, color: "#2471a3", link: "https://www.w3schools.com/c/c_intro.php" },
+  { name: "Python", percentage: 5, color: "#f9e79f", link: "https://www.python.org/" },
 ];
 
 function SkillsPage() {
