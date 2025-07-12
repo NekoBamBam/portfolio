@@ -2,6 +2,7 @@ import React from "react";
 import fondo from "../assets/zoro.jpeg";
 import { Link } from "react-router-dom";
 
+
 function Home() {
   return (
     <div className="relative h-screen w-full">

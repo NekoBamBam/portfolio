@@ -1,7 +1,6 @@
-import { BrowserRouter, Route, Routes,useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Layout from "./layout/Layout";
-/* import Contact from "./pages/Contact"; */
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Work from "./pages/Work";

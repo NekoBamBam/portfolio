@@ -5,7 +5,6 @@ function Contact() {
   return (
     <div >
       {<Links/>}
-
     </div>
   )
 }

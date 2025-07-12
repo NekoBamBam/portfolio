@@ -6,7 +6,7 @@ export default function Layout() {
   return (
     <div className="bg-[#000000] antialiased min-h-screen flex flex-col">
       {/* Navbar sticky arriba */}
-      <div className="lg:sticky top-0 z-50">
+      <div>
         <Navbar />
       </div>
 
