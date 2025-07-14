@@ -11,7 +11,7 @@ export default function Layout() {
       </div>
 
       {/* Contenido que crece */}
-      <main className="flex-grow w-full">
+      <main className="flex-grow">
         <Outlet />
       </main>
 

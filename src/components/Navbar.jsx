@@ -70,7 +70,7 @@ function Navbar() {
   return (
     <nav className="w-full fixed bottom-0 md:top-0 md:relative bg-[#173b3b] text-white z-50">
       {/* Mobile menu */}
-      <ul className="flex justify-around items-center h-14 md:hidden">
+      <ul className="flex justify-around items-center h-12 md:hidden">
         {routes.map(({ path, label, icon }, index) => (
           <li key={index}>
             <Link
