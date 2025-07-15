@@ -11,6 +11,7 @@ const skills = [
   { name: "SQL", percentage: 50, color: "#EF3E36", link: "https://datademia.es/blog/que-es-sql" },
   { name: "C", percentage: 70, color: "#2471a3", link: "https://www.w3schools.com/c/c_intro.php" },
   { name: "Python", percentage: 5, color: "#f9e79f", link: "https://www.python.org/" },
+  {name: "Trabajo en equipo🫱🏽‍🫲🏾", percentage: 90, color: "#f9e79f"},
 ];
 
 function SkillsPage() {

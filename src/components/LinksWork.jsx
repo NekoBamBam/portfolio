@@ -1,14 +1,15 @@
 import React from "react";
-import sapu from "../assets/sapu.png"
-import poke from "../assets/poke.png"
-import calcu from "../assets/calcu.png"
-import tattoo from "../assets/tatu.png"
-
+import sapu from "../assets/sapu.png";
+import poke from "../assets/poke.png";
+import calcu from "../assets/calcu.png";
+import tattoo from "../assets/tatu.png";
+import batalla from "../assets/batalla.png"
 
 const projects = [
   {
     title: "SapuCraft",
-    description: "Esta pagina esta insipirada en un servidor de Minecraft con amigos.",
+    description:
+      "Esta pagina esta insipirada en un servidor de Minecraft con amigos.",
     image: sapu,
     link: "https://lawcito.github.io/minecraft-web/ ",
   },
@@ -24,11 +25,18 @@ const projects = [
     image: calcu,
     link: "https://nekobambam.github.io/CalcuCFL/",
   },
-    {
+  {
     title: "Pokemon (Proximamente)",
     description: "Este es un gran juego (no me salió)",
     image: poke,
     link: "https://github.com/NekoBamBam/pokemon",
+  },
+  {
+    title: "Batalla Naval",
+    description:
+      "Este es un juego que fue presentado en mi trabajo final de progrmación I realizado con 3 grandes compañeros de la factultad",
+    image: batalla,
+    link: "https://github.com/NekoBamBam/batallanaval1.0",
   },
 ];
 
@@ -36,8 +44,10 @@ function Work() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 py-12 h-full">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-[#0daab7] mb-4">Mis Trabajos y Contribuciones</h1>
-        
+        <h1 className="text-4xl font-bold text-[#0daab7] mb-4">
+          Mis Trabajos y Contribuciones
+        </h1>
+
         <p className="text-lg text-[gray-500]">
           Aquí están algunos de los proyectos en los que he trabajado.
         </p>

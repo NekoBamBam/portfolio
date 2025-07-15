@@ -17,22 +17,27 @@ function Me() {
           </div>
           {/* Texto */}
           <p className="text-white text-center md:text-left text-base md:text-lg leading-relaxed">
-            Hola! Soy Coria Franco Nicolas, me gusta el diseño Web, soy
-            creativo, me gusta aprender y emprender, no suelo llevarme mal con
-            la gente y por último aguante a c r u y aguante gimnasia 🐺.
+            Hola! Soy Coria Franco Nicolas, Soy una persona apasionada por el
+            diseño web, siempre buscando aprender cosas nuevas y mejorar cada
+            día. Me gusta trabajar en equipo, compartir ideas y socializar para
+            crear un ambiente ameno y colaborativo. Además, me esfuerzo mucho
+            para cumplir con los objetivos y entregar resultados de calidad.
+            Creo que la combinación de creatividad, aprendizaje continuo y buena
+            comunicación es clave para crecer profesionalmente.
           </p>
         </div>
-        <ul className="timeline timeline-vertical">
+
+        <ul className="timeline timeline-vertical ">
           <li>
-            <div className="timeline-start timeline-box">
-              First Macintosh computer
+            <div className="timeline-start timeline-box text-white">
+              Bloque de comando Minecraft
             </div>
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="text-primary h-5 w-5"
+                className="text-[#04cc9c] h-5 w-5"
               >
                 <path
                   fillRule="evenodd"
@@ -41,16 +46,16 @@ function Me() {
                 />
               </svg>
             </div>
-            <hr className="bg-primary" />
+            <hr className="bg-[#04cc9c]" />
           </li>
           <li>
-            <hr className="bg-primary" />
+            <hr className="bg-[#04cc9c]" />
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="text-primary h-5 w-5"
+                className="text-[#04cc9c] h-5 w-5"
               >
                 <path
                   fillRule="evenodd"
@@ -59,18 +64,22 @@ function Me() {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box">iMac</div>
-            <hr className="bg-primary" />
+            <div className="timeline-end timeline-box text-white">
+              Calculadora CFL😢
+            </div>
+            <hr className="bg-[#04cc9c]" />
           </li>
           <li>
-            <hr className="bg-primary" />
-            <div className="timeline-start timeline-box">iPod</div>
+            <hr className="bg-[#04cc9c]" />
+            <div className="timeline-start timeline-box text-white">
+              SapuCraft!
+            </div>
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="text-primary h-5 w-5"
+                className="text-[#04cc9c] h-5 w-5"
               >
                 <path
                   fillRule="evenodd"
@@ -79,16 +88,16 @@ function Me() {
                 />
               </svg>
             </div>
-            <hr />
+            <hr className="bg-[#04cc9c]" />
           </li>
           <li>
-            <hr />
-            <div className="timeline-middle">
+            <hr className="bg-[#04cc9c]" />
+            <div className="timeline-middle ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="h-5 w-5"
+                className="h-5 w-5 text-[#04cc9c]"
               >
                 <path
                   fillRule="evenodd"
@@ -97,18 +106,83 @@ function Me() {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box">iPhone</div>
-            <hr />
+            <div className="timeline-end timeline-box  ">
+              Programador Web CFL 404
+            </div>
+            <hr className="bg-[#04cc9c]" />
           </li>
           <li>
-            <hr />
-            <div className="timeline-start timeline-box">Apple Watch</div>
-            <div className="timeline-middle">
+            <hr className="bg-[#04cc9c]" />
+            <div className="timeline-middle ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="h-5 w-5"
+                className="h-5 w-5 "
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-start timeline-box  ">
+              Desarrollo Mobile CFL 404
+            </div>
+            <hr className="bg-[#04cc9c]" />
+          </li>
+          <li>
+            <hr className="bg-[#04cc9c]" />
+            <div className="timeline-end timeline-box ">
+              Inicio Tenicatura Universitaria en Progamación UTN
+            </div>
+            <div className="timeline-middle ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5 text-[#04cc9c]"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <hr className="bg-[#04cc9c]" />
+          </li>
+          <li>
+            <hr className="bg-[#04cc9c]" />
+            <div className="timeline-middle ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5 text-[#04cc9c] "
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-start timeline-box  ">Programación I</div>
+            <hr className="" />
+          </li>
+          <li>
+            <hr className="" />
+            <div className="timeline-end timeline-box  ">
+              Fin Programador Universitario🥳
+            </div>
+            <div className="timeline-middle ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5 "
               >
                 <path
                   fillRule="evenodd"

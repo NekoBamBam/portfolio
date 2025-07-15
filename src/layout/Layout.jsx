@@ -4,14 +4,15 @@ import Footer from "../components/Footer";
 
 export default function Layout() {
   return (
-    <div className="bg-[#000000] antialiased min-h-screen flex flex-col">
+    <div className="background-texture antialiased min-h-screen flex flex-col">
+
       {/* Navbar sticky arriba */}
       <div>
         <Navbar />
       </div>
 
       {/* Contenido que crece */}
-      <main className="flex-grow">
+      <main className="flex-grow pb-14 md:pb-0">
         <Outlet />
       </main>
 

@@ -6,6 +6,7 @@ import Skills from "./pages/Skills";
 import Work from "./pages/Work";
 import NotFound from "./pages/notfound";
 import Me from "./pages/Me";
+import './index.css';
 
 function App() {
   return (
