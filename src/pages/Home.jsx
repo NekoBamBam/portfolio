@@ -22,15 +22,17 @@ function Home() {
           ¡Bienvenido!
         </h1>
         <p className="text-sm sm:text-base md:text-xl text-gray-300 mb-6 sm:mb-8 max-w-lg">
-          Bienvenido/s a mi humilde portfolio, en esta pequeña y sencilla page
+          Bienvenido/a a mi humilde portfolio, en esta pequeña y sencilla page
           se puede observar un poco de mi, como persona y como programador,
           espero te guste 😎.
         </p>
-        <Link to="/me">
-          <button className="btn px-4 py-2 sm:px-6 sm:py-3 bg-[#04cc9c] text-[#1d3031] font-semibold rounded-lg hover:bg-[#357c59] transition duration-300 text-sm sm:text-base">
-            Un poquito sobre mi.
-          </button>
-        </Link>
+        <a
+          href="/cvcoria.pdf"
+          download
+          className="btn px-4 py-2 sm:px-6 sm:py-3 bg-[#04cc9c] text-[#1d3031] font-semibold rounded-lg hover:bg-[#357c59] transition duration-300 text-sm sm:text-base"
+        >
+          Descargar mi CV
+        </a>
       </div>
     </div>
   );

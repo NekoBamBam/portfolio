@@ -4,9 +4,8 @@ import Layout from "./layout/Layout";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Work from "./pages/Work";
-import NotFound from "./pages/notfound";
+import NotFound from "./pages/NotFound";
 import Me from "./pages/Me";
-import './index.css';
 
 function App() {
   return (
