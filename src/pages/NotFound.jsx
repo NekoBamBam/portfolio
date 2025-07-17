@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import errorImage from "../assets/luffy.jpg"; // Reemplaza con tu imagen
+import errorImage from "../assets/luffy.jpg"; 
 
 const NotFound = () => {
   return (
