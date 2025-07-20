@@ -17,13 +17,16 @@ function Me() {
           </div>
           {/* Texto */}
           <p className="text-white text-center md:text-left text-base md:text-lg leading-relaxed">
-            Hola! Soy Coria Franco Nicolas, Soy una persona apasionada por el
-            diseño web, siempre buscando aprender cosas nuevas y mejorar cada
-            día. Me gusta trabajar en equipo, compartir ideas y socializar para
-            crear un ambiente ameno y colaborativo. Además, me esfuerzo mucho
-            para cumplir con los objetivos y entregar resultados de calidad.
-            Creo que la combinación de creatividad, aprendizaje continuo y buena
-            comunicación es clave para crecer profesionalmente.
+            Hola! Soy{" "}
+            <span className="text-red-500 "> Coria Franco Nicolas</span>, Soy
+            una persona apasionada por el
+            <span className="text-red-500 "> diseño web</span>, siempre buscando
+            aprender cosas nuevas y mejorar cada día. Me gusta trabajar en
+            equipo, compartir ideas y socializar para crear un ambiente ameno y
+            colaborativo. Además, me esfuerzo mucho para cumplir con los
+            objetivos y entregar resultados de calidad. Creo que la combinación
+            de creatividad, aprendizaje continuo y buena comunicación es clave
+            para crecer profesionalmente.
           </p>
         </div>
 
@@ -118,7 +121,7 @@ function Me() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="h-5 w-5 "
+                className="h-5 w-5 text-[#04cc9c]"
               >
                 <path
                   fillRule="evenodd"
@@ -128,7 +131,7 @@ function Me() {
               </svg>
             </div>
             <div className="timeline-start timeline-box  ">
-              Desarrollo Mobile CFL 404
+              Inicio Desarrollo Mobile CFL 404
             </div>
             <hr className="bg-[#04cc9c]" />
           </li>
@@ -170,12 +173,32 @@ function Me() {
               </svg>
             </div>
             <div className="timeline-start timeline-box  ">Programación I</div>
-            <hr className="" />
+            <hr className="bg-[#04cc9c]" />
           </li>
           <li>
             <hr className="" />
             <div className="timeline-end timeline-box  ">
-              Fin Programador Universitario🥳
+              Fin Desarrollo Mobile
+            </div>
+            <div className="timeline-middle ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5 "
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+          </li>
+          <li>
+            <hr className="" />
+            <div className="timeline-start timeline-box  ">
+              Fin Desarrollo Mobile
             </div>
             <div className="timeline-middle ">
               <svg
