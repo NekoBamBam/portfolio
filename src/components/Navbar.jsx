@@ -77,8 +77,8 @@ function Navbar() {
               to={path}
               className={`flex flex-col items-center text-xs transition-colors duration-300 ${
                 location.pathname === path
-                  ? "text-[#d39152] font-semibold"
-                  : "text-white hover:text-[#d39152]"
+                  ? "text-highlight font-semibold"
+                  : "text-white hover:text-highlight"
               }`}
             >
               {icon}
@@ -96,8 +96,8 @@ function Navbar() {
               to={path}
               className={`flex items-center gap-2 px-4 py-2 rounded-md transition-colors duration-300 ${
                 location.pathname === path
-                  ? "text-[#d39152] underline underline-offset-8 font-semibold"
-                  : "text-white hover:text-[#d39152]"
+                  ? "text-highlight underline underline-offset-8 font-semibold"
+                  : "text-white hover:text-highlight"
               }`}
             >
               {icon}

@@ -1,4 +1,3 @@
-import React from 'react'
 import LinksWork from '../components/LinksWork'
 
 function Work() {

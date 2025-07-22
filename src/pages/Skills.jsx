@@ -14,55 +14,46 @@ const skills = [
   {
     name: "JavaScript",
     logo: js,
-    color: "#f7df1e",
     link: "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Introduction",
   },
   {
     name: "React",
     logo: react,
-    color: "#61dafb",
     link: "https://reactjs.org/",
   },
   {
     name: "CSS",
     logo: css,
-    color: "#264de4",
     link: "https://developer.mozilla.org/es/docs/Web/CSS",
   },
   {
     name: "Node.js",
     logo: nodejs,
-    color: "#3c873a",
     link: "https://nodejs.org/en/",
   },
   {
     name: "UI/UX Design",
     logo: uiux,
-    color: "#ff5722",
     link: "https://www.interaction-design.org/literature/topics/ui-design",
   },
   {
     name: "SQL",
     logo: sql,
-    color: "#EF3E36",
     link: "https://datademia.es/blog/que-es-sql",
   },
   {
     name: "C",
     logo: c,
-    color: "#2471a3",
     link: "https://www.w3schools.com/c/c_intro.php",
   },
   {
     name: "Python",
     logo: python,
-    color: "#f9e79f",
     link: "https://www.python.org/",
   },
   {
     name: "C++",
     logo: c1,
-    color: "#f9e79f",
     link: "https://www.w3schools.com/cpp/default.asp",
   },
 ];
@@ -82,7 +73,7 @@ const softSkills = [
 function SkillsPage() {
   return (
     <div
-      className="text-white flex flex-col"
+      className="text-white flex flex-col bg-dark "
       style={{
         backgroundImage: `url(${fondo1})`,
         backgroundRepeat: "repeat",
@@ -90,9 +81,11 @@ function SkillsPage() {
       }}
     >
       <div className="flex-grow flex flex-col items-center py-10">
-        <h1 className="text-4xl font-bold mb-8 text-[#0daab7]">My Skills</h1>
+        <h1 className="text-4xl font-bold mb-8 text-info">
+          Habilidades y Conocimientos
+        </h1>
 
-        <p className="text-lg text-gray-400 mb-12 w-4/5 text-center">
+        <p className="text-lg text-white mb-12 w-4/5 text-center">
           Estas son algunas de mis habilidades técnicas y creativas, con un
           enfoque en desarrollo web y diseño intuitivo.
         </p>
@@ -105,13 +98,14 @@ function SkillsPage() {
               href={skill.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center gap-4 bg-gray-800 p-6 rounded-lg shadow-md drop-shadow-md shadow-[#049c92]
-              transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+              className="group flex flex-col items-center gap-4 bg-gray-800/50 p-6 rounded-lg border border-transparent
+             shadow-md drop-shadow-md shadow-[#049c92] backdrop-blur-md
+             transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#04cc9c]"
             >
               <img
                 src={skill.logo}
                 alt={skill.name}
-                className="w-16 h-16 object-contain"
+                className="w-16 h-16 object-contain group-hover:rotate-6 transition duration-300"
               />
               <h2 className="text-xl font-semibold">{skill.name}</h2>
             </a>
@@ -119,10 +113,10 @@ function SkillsPage() {
         </div>
 
         {/* HABILIDADES BLANDAS */}
-        <h2 className="text-3xl font-bold mb-6 text-[#0daab7]">
+        <h2 className="text-3xl font-bold mb-6 text-info">
           Habilidades Blandas
         </h2>
-        <p className="text-lg text-gray-400 mb-10 w-4/5 text-center">
+        <p className="text-lg text-white mb-10 w-4/5 text-center">
           También desarrollo habilidades interpersonales que potencian mi forma
           de trabajar y colaborar en equipo.
         </p>
@@ -130,7 +124,8 @@ function SkillsPage() {
           {softSkills.map((skill, index) => (
             <div
               key={index}
-              className="bg-gray-800 p-4 rounded-lg shadow-md text-center font-medium text-sm sm:text-base hover:scale-105 transition transform duration-300 flex items-center justify-center gap-2"
+              className="bg-gray-800 p-4 rounded-lg shadow-sm drop-shadow-md shadow-[#049c92] text-center font-medium text-sm sm:text-base hover:border-[#04cc9c] border border-transparent
+ transition transform duration-300 flex items-center justify-center gap-2"
             >
               <span className="text-xl">{skill.icon}</span>
               <span>{skill.name}</span>

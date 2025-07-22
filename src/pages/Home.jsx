@@ -27,7 +27,7 @@ function Home() {
         <a
           href="/portfolio/mi-cv.pdf"
           download
-          className="btn px-4 py-2 sm:px-6 sm:py-3 bg-[#04cc9c] text-[#1d3031] font-semibold rounded-lg hover:bg-[#357c59] transition duration-300 text-sm sm:text-base"
+          className="btn px-4 py-2 sm:px-6 sm:py-3 bg-accent text-dark font-semibold rounded-lg hover:bg-danger transition duration-300 text-sm sm:text-base"
         >
           Descargar mi CV
         </a>

@@ -8,7 +8,7 @@ function Footer() {
           <Link
             to="https://www.linkedin.com/in/franco-nicolas-coria-208101215/"
             target="_blank"
-            className=" transition-colors duration-300 hover:text-[#d39152]"
+            className=" transition-colors duration-300 hover:text-highlight"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ function Footer() {
           <Link
             to="https://github.com/NekoBamBam"
             target="_blank"
-            className="transition-colors duration-300 hover:text-[#d39152]"
+            className="transition-colors duration-300 hover:text-highlight"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ function Footer() {
           <Link
             to="https://www.instagram.com/coriannicolas/"
             target="_blank"
-            className="transition-colors duration-300 hover:text-[#d39152]"
+            className="transition-colors duration-300 hover:text-highlight"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ function Footer() {
           <Link
             to="mailto:coriannicolas21@gmail.com"
             target="_blank"
-            className="transition-colors duration-300 hover:text-[#d39152]"
+            className="transition-colors duration-300 hover:text-highlight"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
