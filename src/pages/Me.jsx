@@ -1,4 +1,3 @@
-import React from "react";
 import yo from "../assets/yo.jpg";
 
 function Me() {
@@ -49,6 +48,7 @@ function Me() {
                 />
               </svg>
             </div>
+            
             <hr className="bg-[#04cc9c]" />
           </li>
           <li>
@@ -194,11 +194,13 @@ function Me() {
                 />
               </svg>
             </div>
+            <hr className="" />
+
           </li>
           <li>
             <hr className="" />
             <div className="timeline-start timeline-box  ">
-              Fin Desarrollo Mobile
+              Fin Tecnicatura Programación🥳
             </div>
             <div className="timeline-middle ">
               <svg

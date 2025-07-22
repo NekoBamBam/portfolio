@@ -1,6 +1,4 @@
-import React from "react";
 import fondo from "../assets/zoro.jpeg";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -27,7 +25,7 @@ function Home() {
           espero te guste 😎.
         </p>
         <a
-          href="/cvcoria.pdf"
+          href="/portfolio/mi-cv.pdf"
           download
           className="btn px-4 py-2 sm:px-6 sm:py-3 bg-[#04cc9c] text-[#1d3031] font-semibold rounded-lg hover:bg-[#357c59] transition duration-300 text-sm sm:text-base"
         >

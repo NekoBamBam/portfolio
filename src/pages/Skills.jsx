@@ -67,24 +67,38 @@ const skills = [
   },
 ];
 
+const softSkills = [
+  { name: "Comunicación efectiva", icon: "🗣️" },
+  { name: "Trabajo en equipo", icon: "🤝" },
+  { name: "Resolución de problemas", icon: "🧠" },
+  { name: "Adaptabilidad al cambio", icon: "🔄" },
+  { name: "Gestión del tiempo", icon: "⏳" },
+  { name: "Aprendizaje autónomo", icon: "📚" },
+  { name: "Pensamiento crítico", icon: "💡" },
+  { name: "Atención al detalle", icon: "🔍" },
+  { name: "Recepción de feedback", icon: "🧭" },
+];
+
 function SkillsPage() {
   return (
     <div
-      className=" text-white flex flex-col"
+      className="text-white flex flex-col"
       style={{
-        backgroundImage: `url(${fondo1}) `,
+        backgroundImage: `url(${fondo1})`,
         backgroundRepeat: "repeat",
         backgroundSize: "auto",
       }}
     >
-      {/* Contenido principal */}
       <div className="flex-grow flex flex-col items-center py-10">
         <h1 className="text-4xl font-bold mb-8 text-[#0daab7]">My Skills</h1>
+
         <p className="text-lg text-gray-400 mb-12 w-4/5 text-center">
           Estas son algunas de mis habilidades técnicas y creativas, con un
           enfoque en desarrollo web y diseño intuitivo.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+        {/* HABILIDADES TÉCNICAS */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
           {skills.map((skill, index) => (
             <a
               key={index}
@@ -92,7 +106,7 @@ function SkillsPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-4 bg-gray-800 p-6 rounded-lg shadow-md drop-shadow-md shadow-[#049c92]
-                transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+              transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
             >
               <img
                 src={skill.logo}
@@ -101,6 +115,26 @@ function SkillsPage() {
               />
               <h2 className="text-xl font-semibold">{skill.name}</h2>
             </a>
+          ))}
+        </div>
+
+        {/* HABILIDADES BLANDAS */}
+        <h2 className="text-3xl font-bold mb-6 text-[#0daab7]">
+          Habilidades Blandas
+        </h2>
+        <p className="text-lg text-gray-400 mb-10 w-4/5 text-center">
+          También desarrollo habilidades interpersonales que potencian mi forma
+          de trabajar y colaborar en equipo.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 w-4/5">
+          {softSkills.map((skill, index) => (
+            <div
+              key={index}
+              className="bg-gray-800 p-4 rounded-lg shadow-md text-center font-medium text-sm sm:text-base hover:scale-105 transition transform duration-300 flex items-center justify-center gap-2"
+            >
+              <span className="text-xl">{skill.icon}</span>
+              <span>{skill.name}</span>
+            </div>
           ))}
         </div>
       </div>

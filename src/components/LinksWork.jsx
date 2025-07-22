@@ -1,9 +1,9 @@
-import React from "react";
 import sapu from "../assets/sapu.png";
 import poke from "../assets/poke.png";
 import calcu from "../assets/calcu.png";
 import tattoo from "../assets/tatu.png";
 import batalla from "../assets/batalla.png"
+import construccion from "../assets/construccion1.jpg"
 
 const projects = [
   {
@@ -38,6 +38,11 @@ const projects = [
     image: batalla,
     link: "https://github.com/NekoBamBam/batallanaval1.0",
   },
+  {
+    tittle: "Anotador Mobile",
+    description: "No mas spoilers",
+    image: construccion,
+  }
 ];
 
 function Work() {

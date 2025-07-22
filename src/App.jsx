@@ -6,6 +6,7 @@ import Skills from "./pages/Skills";
 import Work from "./pages/Work";
 import NotFound from "./pages/NotFound";
 import Me from "./pages/Me";
+import Mee from "./pages/Mee";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="skills" element={<Skills />} />
           <Route path="work" element={<Work />} />
           <Route path="me" element={<Me />} />
+          <Route path="mee" element={<Mee />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
