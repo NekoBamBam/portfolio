@@ -28,13 +28,13 @@ function Me() {
               Coria Franco Nicolás
             </span>
             , una persona apasionada por el{" "}
-            <span className="text-accent font-semibold">diseño web</span>,
+            <span className="text-accent font-semibold">Diseño web</span>,
             siempre buscando aprender cosas nuevas y mejorar cada día.
             <span className="text-accent font-semibold">
               {" "}
               Me gusta trabajar en equipo
             </span>
-            ,, compartir ideas y socializar para crear un ambiente ameno y
+            , compartir ideas y socializar para crear un ambiente ameno y
             colaborativo.
           </p>
           <br />
@@ -47,7 +47,7 @@ function Me() {
         </div>
 
         {/* Timeline */}
-        <div className="md:w-1/4 w-full self-start -mt-24">
+        <div className="w-full md:w-1/4 mt-0 md:-mt-24 self-start">
           <ul className="timeline timeline-vertical">
             <li>
               <div className="timeline-start text-accent">2013</div>

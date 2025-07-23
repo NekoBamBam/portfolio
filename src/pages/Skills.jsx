@@ -73,22 +73,26 @@ const softSkills = [
 function SkillsPage() {
   return (
     <div
-      className="text-white flex flex-col bg-dark "
+      className="text-white flex flex-col bg-dark w-full"
       style={{
         backgroundImage: `url(${fondo1})`,
         backgroundRepeat: "repeat",
         backgroundSize: "auto",
       }}
     >
-      <div className="flex-grow flex flex-col items-center py-10">
-        <h1 className="text-4xl font-bold mb-8 text-info">
+      <div className="w-full flex flex-col items-center py-10 px-4">
+        <h1 className="text-4xl font-bold mb-8 text-info text-center">
           Habilidades y Conocimientos
         </h1>
 
-        <p className="text-lg text-white mb-12 w-4/5 text-center">
+        <p className="text-lg text-white mb-12 w-full sm:w-4/5 text-center">
           Estas son algunas de mis habilidades técnicas y creativas, con un
           enfoque en desarrollo web y diseño intuitivo.
         </p>
+ 
+  
+
+
 
         {/* HABILIDADES TÉCNICAS */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
@@ -124,10 +128,12 @@ function SkillsPage() {
           {softSkills.map((skill, index) => (
             <div
               key={index}
-              className="bg-gray-800 p-4 rounded-lg shadow-sm drop-shadow-md shadow-[#049c92] text-center font-medium text-sm sm:text-base hover:border-[#04cc9c] border border-transparent
- transition transform duration-300 flex items-center justify-center gap-2"
+              className="group bg-gray-800 p-4 rounded-lg shadow-sm drop-shadow-md shadow-[#049c92] text-center font-medium text-sm sm:text-base hover:border-[#04cc9c] border border-transparent
+transition transform duration-300 flex items-center justify-center gap-2"
             >
-              <span className="text-xl">{skill.icon}</span>
+              <span className="text-xl group-hover:animate-bounce">
+                {skill.icon}
+              </span>
               <span>{skill.name}</span>
             </div>
           ))}

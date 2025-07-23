@@ -63,11 +63,11 @@ function Work() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-24">
+      <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-8 px-6 lg:px-24">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300"
+            className="card bg-base-100  transition-all duration-300 hover:scale-105 hover:shadow-xl "
           >
             <figure>
               <img
@@ -84,7 +84,8 @@ function Work() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-secondary"
+                  className="btn btn-outline text-[#95C623] border-[#95C623] hover:bg-[#95C623] hover:text-black"
+
                 >
                   Ver Proyecto
                 </a>

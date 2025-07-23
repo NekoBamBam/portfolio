@@ -5,7 +5,7 @@ function Home() {
     <div className="relative h-screen w-full">
       {/* Imagen de fondo */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover  bg-center"
         style={{
           backgroundImage: `url(${fondo})`,
         }}
