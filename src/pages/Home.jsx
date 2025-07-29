@@ -25,7 +25,7 @@ function Home() {
           espero te guste 😎.
         </p>
         <a
-          href="/portfolio/mi-cv.pdf"
+          href="/mi-cv.pdf"
           download
           className="btn px-4 py-2 sm:px-6 sm:py-3 bg-accent text-dark font-semibold rounded-lg hover:bg-danger transition duration-300 text-sm sm:text-base"
         >
