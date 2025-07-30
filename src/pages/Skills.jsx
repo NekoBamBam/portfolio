@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import js from "../assets/js1.webp";
-import react from "../assets/react1.png";
-import css from "../assets/css.png";
-import nodejs from "../assets/nodejs.png";
-import uiux from "../assets/uxui.png";
-import sql from "../assets/sql.png";
-import c from "../assets/c.png";
-import python from "../assets/python.png";
-import c1 from "../assets/c1.png";
+import react from "../assets/react1.webp";
+import css from "../assets/css.webp";
+import nodejs from "../assets/nodejs.webp";
+import uiux from "../assets/uxui.webp";
+import sql from "../assets/sql.webp";
+import c from "../assets/c.webp";
+import python from "../assets/python.webp";
+import c1 from "../assets/c1.webp";
 import fondo1 from "../assets/fondo1.png";
 
 const skills = [
