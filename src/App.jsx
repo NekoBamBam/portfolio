@@ -6,11 +6,13 @@ import Skills from "./pages/Skills";
 import Work from "./pages/Work";
 import NotFound from "./pages/NotFound";
 import Me from "./pages/Me";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div>
     <BrowserRouter>
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

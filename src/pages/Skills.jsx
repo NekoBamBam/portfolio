@@ -110,26 +110,35 @@ function SkillsPage() {
 
         {/* HABILIDADES TÉCNICAS */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
-          {skills.map((skill, index) => (
-            <a
-              key={index}
-              href={skill.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`group flex flex-col items-center gap-4 bg-gray-800/50 p-6 rounded-lg border border-transparent
-                shadow-md drop-shadow-md shadow-[#049c92] backdrop-blur-md
-                transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#04cc9c]`}
-            >
-              <img
-                src={skill.logo}
-                alt={skill.name}
-                className={`w-16 h-16 object-contain ${
-                  isMobile ? "" : "group-hover:rotate-6 transition duration-300"
-                }`}
-              />
-              <h2 className="text-xl font-semibold">{skill.name}</h2>
-            </a>
-          ))}
+          {skills.map((skill, index) => {
+            const cardClass = `group flex flex-col items-center gap-4 ${
+              isMobile
+                ? "bg-gray-800"
+                : "bg-gray-800/50 drop-shadow-md shadow-[#049c92] backdrop-blur-md transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-[#04cc9c]"
+            } p-6 rounded-lg border border-transparent shadow-md`;
+
+            return (
+              <a
+                key={index}
+                href={skill.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cardClass}
+              >
+                <img
+                  src={skill.logo}
+                  alt={skill.name}
+                  loading="lazy"
+                  className={`w-16 h-16 object-contain ${
+                    isMobile
+                      ? ""
+                      : "group-hover:rotate-6 transition duration-300"
+                  }`}
+                />
+                <h2 className="text-xl font-semibold">{skill.name}</h2>
+              </a>
+            );
+          })}
         </div>
 
         {/* HABILIDADES BLANDAS */}
