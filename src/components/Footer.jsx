@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="bg-[#40916c] text-white h-10 fixed bottom-12 w-full flex justify-center md:static">
-      <ul className="flex justify-center items-center gap-16">
+      <ul className="flex justify-center items-center gap-20">
         <li>
           <Link
             to="https://www.linkedin.com/in/franco-nicolas-coria-208101215/"

@@ -1,10 +1,11 @@
 import sapu from "../assets/sapu.png";
-import poke from "../assets/poke.png";
 import calcu from "../assets/calcu.png";
 import tattoo from "../assets/tatu.png";
-import batalla from "../assets/batalla.png"
-import construccion from "../assets/construccion1.jpg"
-import fondo1 from "../assets/fondo1.png"
+import batalla from "../assets/batalla.png";
+import construccion from "../assets/construccion1.jpg";
+import fondo1 from "../assets/fondo1.png";
+import fondopoke from "../assets/pokemonfondo.png";
+
 const projects = [
   {
     title: "SapuCraft",
@@ -26,10 +27,10 @@ const projects = [
     link: "https://nekobambam.github.io/CalcuCFL/",
   },
   {
-    title: "Pokemon (Proximamente)",
-    description: "Este es un gran juego (no me salió)",
-    image: poke,
-    link: "https://github.com/NekoBamBam/pokemon",
+    title: "Pokemon",
+    description: "Improvisacion de un juego al que falta terminar",
+    image: fondopoke,
+    link: "https://nekobambam.github.io/pokemon/",
   },
   {
     title: "Batalla Naval",
@@ -43,16 +44,18 @@ const projects = [
     description: "En construcción",
     image: construccion,
   },
-  
 ];
 
 function Work() {
   return (
-    <div className="min-h-screen bg-dark py-12 h-full"style={{
-            backgroundImage: `url(${fondo1})`,
-            backgroundRepeat: "repeat",
-            backgroundSize: "auto",
-          }}>
+    <div
+      className="min-h-screen bg-dark py-12 h-full"
+      style={{
+        backgroundImage: `url(${fondo1})`,
+        backgroundRepeat: "repeat",
+        backgroundSize: "auto",
+      }}
+    >
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-info mb-4">
           Mis Trabajos y Contribuciones
@@ -85,7 +88,6 @@ function Work() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-outline text-[#95C623] border-[#95C623] hover:bg-[#95C623] hover:text-black"
-
                 >
                   Ver Proyecto
                 </a>

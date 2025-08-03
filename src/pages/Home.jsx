@@ -2,14 +2,16 @@ import fondo from "../assets/zoro.jpeg";
 
 function Home() {
   return (
-    <div className="relative h-screen w-full">
-      {/* Imagen de fondo */}
-      <div
-        className="absolute inset-0 bg-cover  bg-center"
-        style={{
-          backgroundImage: `url(${fondo})`,
-        }}
-      ></div>
+    <div
+  className="w-full h-screen sm:h-auto sm:relative sm:min-h-[100vh] fixed sm:static top-0 left-0 flex flex-col items-center justify-center text-center text-slate-300 px-4 sm:px-6"
+  style={{
+    backgroundImage: `url(${fondo})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+>
+
 
       {/* Superposición de color */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -19,7 +21,7 @@ function Home() {
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6">
           ¡Bienvenido!
         </h1>
-        <p className="text-sm sm:text-base md:text-xl text-gray-300 mb-6 sm:mb-8 max-w-lg">
+        <p className="text-lg sm:text-base md:text-xl text-gray-300 mb-6 sm:mb-8 max-w-lg">
           Bienvenido/a a mi humilde portfolio, en esta pequeña y sencilla page
           se puede observar un poco de mi, como persona y como programador,
           espero te guste 😎.
