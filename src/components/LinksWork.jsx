@@ -27,7 +27,7 @@ const projects = [
     link: "https://nekobambam.github.io/CalcuCFL/",
   },
   {
-    title: "Pokemon",
+    title: "Pokemon (Beta)",
     description: "Improvisacion de un juego al que falta terminar",
     image: fondopoke,
     link: "https://nekobambam.github.io/pokemon/",
