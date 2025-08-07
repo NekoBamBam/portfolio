@@ -73,8 +73,8 @@ function Me() {
             </li>
             <li>
               <hr className="bg-accent" />
-              <div className="timeline-start text-accent">Nov-2024</div>
-              <div className="timeline-end timeline-box text-white">
+              <div className="timeline-end text-accent">Nov-2024</div>
+              <div className="timeline-start timeline-box text-white">
                 <a
                   href="https://lawcito.github.io/minecraft-web/"
                   target="_blank"
@@ -138,8 +138,8 @@ function Me() {
                   />
                 </svg>
               </div>
-              <div className="timeline-start text-accent">Mar-2025</div>
-              <div className="timeline-end timeline-box  ">
+              <div className="timeline-end text-accent">Mar-2025</div>
+              <div className="timeline-start timeline-box  ">
                 Inicio Desarrollo Mobile CFL 404
               </div>
               <hr className="bg-accent" />
