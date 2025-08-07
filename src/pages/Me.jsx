@@ -73,8 +73,8 @@ function Me() {
             </li>
             <li>
               <hr className="bg-accent" />
-              <div className="timeline-end text-accent">Nov-2024</div>
-              <div className="timeline-start timeline-box text-white">
+              <div className="timeline-end md:timeline-start text-accent">Nov-2024</div>
+              <div className="timeline-start md:timeline-end timeline-box text-white">
                 <a
                   href="https://lawcito.github.io/minecraft-web/"
                   target="_blank"
@@ -138,8 +138,8 @@ function Me() {
                   />
                 </svg>
               </div>
-              <div className="timeline-end text-accent">Mar-2025</div>
-              <div className="timeline-start timeline-box  ">
+              <div className="timeline-end md:timeline-start text-accent">Mar-2025</div>
+              <div className="timeline-start md:timeline-end timeline-box  ">
                 Inicio Desarrollo Mobile CFL 404
               </div>
               <hr className="bg-accent" />
@@ -182,8 +182,8 @@ function Me() {
                   />
                 </svg>
               </div>
-              <div className="timeline-start text-accent">Jul-2025</div>
-              <div className="timeline-end timeline-box">Programación I</div>
+              <div className="timeline-end md:timeline-start text-accent">Jul-2025</div>
+              <div className="timeline-start md:timeline-end timeline-box">Programación I</div>
               <hr className="bg-accent" />
             </li>
             <li>
@@ -210,8 +210,8 @@ function Me() {
             </li>
             <li>
               <hr className="" />
-              <div className="timeline-start text-white">Nov-2026</div>
-              <div className="timeline-end timeline-box  ">
+              <div className="timeline-end md:timeline-start text-white">Nov-2026</div>
+              <div className="timeline-start md:timeline-end timeline-box">
                 Fin Tecnicatura Programación🥳
               </div>
               <div className="timeline-middle ">
