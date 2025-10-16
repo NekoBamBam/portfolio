@@ -2,8 +2,8 @@ import fondo from "../assets/zoro.jpeg";
 
 function Home() {
   return (
-    <div
-  className="w-full h-screen sm:h-auto sm:relative sm:min-h-[100vh] fixed sm:static top-0 left-0 flex flex-col items-center justify-center text-center text-slate-300 px-4 sm:px-6"
+  <div
+  className="w-full flex-grow flex flex-col items-center justify-center text-center text-slate-300 px-4 sm:px-6 relative overflow-hidden"
   style={{
     backgroundImage: `url(${fondo})`,
     backgroundSize: "cover",
@@ -11,6 +11,7 @@ function Home() {
     backgroundRepeat: "no-repeat",
   }}
 >
+
 
 
       {/* Superposición de color */}
@@ -27,7 +28,7 @@ function Home() {
           espero te guste 😎.
         </p>
         <a
-          href="/mi-cv.pdf"
+          href="/cv-coria-franco.pdf"
           download
           className="btn px-4 py-2 sm:px-6 sm:py-3 bg-accent text-dark font-semibold rounded-lg hover:bg-danger transition duration-300 text-sm sm:text-base"
         >
