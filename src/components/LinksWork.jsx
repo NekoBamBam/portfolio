@@ -1,8 +1,8 @@
 import sapu from "../assets/sapu.png";
 import calcu from "../assets/calcu.png";
 import tattoo from "../assets/tatu.png";
+import mc from "../assets/mc.png"
 import batalla from "../assets/batalla.png";
-import construccion from "../assets/construccion1.jpg";
 import fondo1 from "../assets/fondo1.png";
 import fondopoke from "../assets/pokemonfondo.png";
 
@@ -19,6 +19,12 @@ const projects = [
     description: "Mi pagina personal de tattoo",
     image: tattoo,
     link: "https://nekobambam.github.io/tattoo-web/",
+  },
+   {
+    title: "MC Barberia",
+    description: "Pagina profesional con sistema de turnos por whatsapp incluido",
+    image: mc,
+    link: "https://mcbarberia.vercel.app/",
   },
   {
     title: "Calculadora",
@@ -38,11 +44,6 @@ const projects = [
       "Este es un juego que fue presentado en mi trabajo final de progrmación I realizado con 3 grandes compañeros de la factultad",
     image: batalla,
     link: "https://github.com/NekoBamBam/batallanaval1.0",
-  },
-  {
-    tittle: "...",
-    description: "En construcción",
-    image: construccion,
   },
 ];
 
