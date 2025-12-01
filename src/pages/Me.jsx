@@ -183,16 +183,16 @@ function Me() {
                 </svg>
               </div>
               <div className="timeline-end md:timeline-start text-accent">Jul-2025</div>
-              <div className="timeline-start md:timeline-end timeline-box">Programación I</div>
+              <div className="timeline-start md:timeline-end timeline-box">Programación I en <a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)"target="_blank" className="text-blue-500">C</a></div>
               <hr className="bg-accent" />
             </li>
             <li>
-              <hr className="" />
-              <div className="timeline-start text-white">Dic-2025</div>
+              <hr className="bg-accent" />
+              <div className="timeline-start text-accent">Dic-2025</div>
               <div className="timeline-end timeline-box  ">
                 Fin Desarrollo Mobile
               </div>
-              <div className="timeline-middle ">
+              <div className="timeline-middle text-accent ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -208,9 +208,10 @@ function Me() {
               </div>
               <hr className="" />
             </li>
+            
             <li>
               <hr className="" />
-              <div className="timeline-end md:timeline-start text-white">Nov-2026</div>
+              <div className="timeline-end md:timeline-start text-white">Dic-2026🤞</div>
               <div className="timeline-start md:timeline-end timeline-box">
                 Fin Tecnicatura Programación🥳
               </div>
