@@ -5,6 +5,7 @@ import mc from "../assets/mc.png"
 import batalla from "../assets/batalla.png";
 import fondo1 from "../assets/fondo1.png";
 import fondopoke from "../assets/pokemonfondo.png";
+import blog from "../assets/blog1.png"
 
 const projects = [
   {
@@ -27,16 +28,22 @@ const projects = [
     link: "https://mcbarberia.vercel.app/",
   },
   {
-    title: "Calculadora",
-    description: "Una pequeña calculadora realizada en el CFL",
-    image: calcu,
-    link: "https://nekobambam.github.io/CalcuCFL/",
+    title: "Blog Academico",
+    description: "Esto es solo una muestra, para ver el real ir a Github",
+    image: blog,
+    link: "https://academic-blog.onrender.com/home/",
   },
   {
     title: "Pokemon (Beta)",
     description: "Improvisacion de un juego al que falta terminar",
     image: fondopoke,
     link: "https://nekobambam.github.io/pokemon/",
+  },
+  {
+    title: "Calculadora",
+    description: "Una pequeña calculadora realizada en el CFL",
+    image: calcu,
+    link: "https://nekobambam.github.io/CalcuCFL/",
   },
   {
     title: "Batalla Naval",

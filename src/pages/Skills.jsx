@@ -22,6 +22,11 @@ const skills = [
     link: "https://reactjs.org/",
   },
   {
+    name: "React Native",
+    logo: react,
+    link: "https://reactnative.dev/",
+  },
+  {
     name: "CSS",
     logo: css,
     link: "https://developer.mozilla.org/es/docs/Web/CSS",
