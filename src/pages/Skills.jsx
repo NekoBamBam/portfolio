@@ -178,12 +178,11 @@ function SkillsPage() {
         </div>
         {/* HABILIDADES EXTRA */}
         <h1 className="text-4xl font-bold mb-8 text-info text-center">
-          Habilidades Demás
+         Herramientas & Ecosistema
         </h1>
 
         <p className="text-lg text-white mb-12 w-full sm:w-4/5 text-center">
-          Estas son algunas de mis habilidades técnicas y creativas, con un
-          enfoque en desarrollo web y diseño intuitivo.
+          Estas son algunas de mis habilidades extra como paginas de despliege, base de datos y demás
         </p>
 
 
