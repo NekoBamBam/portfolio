@@ -206,7 +206,7 @@ function Me() {
                   />
                 </svg>
               </div>
-              <hr className="" />
+              <hr className="bg-accent" />
             </li>
             <li>
               <hr className="bg-accent" />
@@ -227,14 +227,14 @@ function Me() {
               <div className="timeline-end md:timeline-start text-accent">
                 Dic-2025
               </div>
-              <div className="timeline-start md:timeline-end timeline-box">
+              <div className="timeline-start md:timeline-end timeline-box ">
                 Programación 2 en <a className="text-red-500 underline" target="_blank" href="https://www.djangoproject.com/">Python Django</a>
               </div>
-              <hr className="bg-accent" />
+              <hr className="" />
             </li>
             <li>
-              <hr className="bg-accent" />
-              <div className="timeline-start text-accent">
+              <hr className="" />
+              <div className="timeline-start  ">
                 Jun-2026
               </div>
               <div className="timeline-end timeline-box">
@@ -245,7 +245,7 @@ function Me() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="h-5 w-5 text-accent"
+                  className="h-5 w-5 "
                 >
                   <path
                     fillRule="evenodd"
@@ -254,16 +254,16 @@ function Me() {
                   />
                 </svg>
               </div>
-              <hr className="bg-accent" />
+              <hr className="" />
             </li>
             <li>
-              <hr className="bg-accent" />
+              <hr className="" />
               <div className="timeline-middle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="h-5 w-5 text-accent"
+                  className="h-5 w-5"
                 >
                   <path
                     fillRule="evenodd"
@@ -272,19 +272,19 @@ function Me() {
                   />
                 </svg>
               </div>
-              <div className="timeline-end md:timeline-start text-accent">
+              <div className="timeline-end md:timeline-start">
                 Dic-2026
               </div>
               <div className="timeline-start md:timeline-end timeline-box">
                 Programación 4
               </div>
-              <hr className="bg-accent" />
+              <hr className="" />
             </li>
 
             <li>
               <hr className="" />
-              <div className="timeline-end md:timeline-start text-white">Dic-2026🤞</div>
-              <div className="timeline-start md:timeline-end timeline-box">
+              <div className="timeline-start md:timeline-start text-white">Dic-2026🤞</div>
+              <div className="timeline-end md:timeline-end timeline-box">
                 Fin Tecnicatura Programación🥳
               </div>
               <div className="timeline-middle ">
