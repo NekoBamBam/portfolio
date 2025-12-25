@@ -44,6 +44,19 @@ function Me() {
             aprendizaje continuo y buena comunicación es clave para crecer
             profesionalmente.
           </p>
+          <br />
+          <p>
+            Soy estudiante de la<a href="https://www.frlp.utn.edu.ar/tecnicatura-programacion" className="text-accent font-semibold" target="_blank"> Tecnicatura Universitaria en Programación
+              en la UTN La Plata</a>, actualmente en curso y con fecha estimada de finalización en 2026.
+            Además, en 2024, finalicé la formación en <a href="https://cfl404.ar/programador.html"  className="text-accent font-semibold" target="_blank">Programador Web en el
+            Centro de Formación Laboral 404 Berisso.</a> También finalicé mi capacitación en
+            noviembre del 2025 en <a href="https://cfl404.ar/Apps.html" className="text-accent font-semibold" target="_blank"> Desarrollador de Apps Mobile </a>En React Native en el mismo
+            centro de formación. Desde siempre, he tenido interés en la programación y el
+            desarrollo de aplicaciones, lo que me motivó a seguir estos estudios para adquirir
+            conocimientos sólidos en el área. La combinación de formación académica en programación
+            y en desarrollo web y móvil me permite tener una visión integral y práctica para afrontar
+            desafíos tecnológicos y crear soluciones innovadoras.
+          </p>
         </div>
 
         {/* Timeline */}
