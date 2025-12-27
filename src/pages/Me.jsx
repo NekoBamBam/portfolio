@@ -45,6 +45,9 @@ function Me() {
             profesionalmente.
           </p>
           <br />
+          <h2 className="text-2xl font-bold text-accent mb-8 text-center">
+        Mis Estudios
+      </h2>
           <p>
             Soy estudiante de la<a href="https://www.frlp.utn.edu.ar/tecnicatura-programacion" className="text-accent font-semibold" target="_blank"> Tecnicatura Universitaria en Programación
               en la UTN La Plata</a>, actualmente en curso y con fecha estimada de finalización en 2026.
