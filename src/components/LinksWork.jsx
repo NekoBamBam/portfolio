@@ -6,6 +6,7 @@ import batalla from "../assets/batalla.png";
 import fondo1 from "../assets/fondo1.png";
 import fondopoke from "../assets/pokemonfondo.png";
 import blog from "../assets/blog1.png"
+import receta1 from "../assets/receta1.png"
 
 const projects = [
   {
@@ -38,6 +39,12 @@ const projects = [
     description: "Improvisacion de un juego al que falta terminar",
     image: fondopoke,
     link: "https://nekobambam.github.io/pokemon/",
+  },
+  {
+    title: "RecetApp",
+    description: "App de practica para ver, guardar y subir recetas realizada con React Native",
+    image: receta1,
+    link: "https://github.com/NekoBamBam/DesarrolloMobile",
   },
   {
     title: "Calculadora",
