@@ -244,19 +244,19 @@ function Me() {
                 Dic-2025
               </div>
               <div className="timeline-start md:timeline-end timeline-box ">
-                Programación 2 en <a className="text-red-500 underline" target="_blank" href="https://www.djangoproject.com/">Python Django</a>
+                Programación II en <a className="text-red-500 underline" target="_blank" href="https://www.djangoproject.com/">Python Django</a>
               </div>
               <hr className="" />
             </li>
             <li>
-              <hr className="" />
-              <div className="timeline-start  ">
+              <hr className="text-accent" />
+              <div className="timeline-start ">
                 Jun-2026
               </div>
               <div className="timeline-end timeline-box">
-                Programación 3
+                Programación III en <a className="text-yellow-500 underline" target="_blank" href="https://lenguajejs.com/javascript/">JavasCript</a> 
               </div>
-              <div className="timeline-middle">
+              <div className="timeline-middle ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -292,7 +292,7 @@ function Me() {
                 Dic-2026
               </div>
               <div className="timeline-start md:timeline-end timeline-box">
-                Programación 4
+                Programación IV
               </div>
               <hr className="" />
             </li>
