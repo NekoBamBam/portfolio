@@ -28,11 +28,11 @@ function Home() {
           espero te guste 😎.
         </p>
         <a
-          href="/cv-coria-franco.pdf"
-          download
+          href="/cv-coria-franco(3).pdf"
+          target = "_blank"
           className="btn px-4 py-2 sm:px-6 sm:py-3 bg-accent text-dark font-semibold rounded-lg hover:bg-danger transition duration-300 text-sm sm:text-base"
         >
-          Descargar CV
+          Curriculum Vitae
         </a>
       </div>
     </div>
