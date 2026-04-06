@@ -30,5 +30,5 @@ Si querés ponerte en contacto conmigo para proyectos, colaboraciones o simpleme
 
 ## 📷 Screenshots
 
-![Home](assets/screenshots/home.png)
+![Home](src/assets/screenshots/home.png)
 
