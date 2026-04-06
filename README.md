@@ -27,3 +27,8 @@ El objetivo de este proyecto es seguir creciendo como desarrollador, aplicar bue
 ## 📫 Contacto
 
 Si querés ponerte en contacto conmigo para proyectos, colaboraciones o simplemente charlar sobre desarrollo, podés hacerlo desde la sección de contacto del portfolio 
+
+## 📷 Screenshoots
+
+![Home](assets/screenshots/home.png)
+
