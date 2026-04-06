@@ -31,4 +31,6 @@ Si querés ponerte en contacto conmigo para proyectos, colaboraciones o simpleme
 ## 📷 Screenshots
 
 ![Home](src/assets/screenshots/home.png)
-
+![Skills](src/assets/screenshots/skills.png)
+![work](src/assets/screenshots/work.png)
+![me](src/assets/screenshots/me.png)
