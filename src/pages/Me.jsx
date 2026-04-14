@@ -280,7 +280,7 @@ function Me() {
             <li>
               <hr className="text-accent" />
               <div className="timeline-start ">
-                Jun-2026
+                Jun
               </div>
               <div className="timeline-end timeline-box">
                 Programación III en <a className="text-yellow-500 underline" target="_blank" href="https://lenguajejs.com/javascript/">JavasCript</a> 
@@ -318,7 +318,7 @@ function Me() {
                 </svg>
               </div>
               <div className="timeline-end md:timeline-start">
-                Dic-2026
+                Dic
               </div>
               <div className="timeline-start md:timeline-end timeline-box">
                 Programación IV
@@ -328,7 +328,7 @@ function Me() {
 
             <li>
               <hr className="" />
-              <div className="timeline-start md:timeline-start text-white">Dic-2026🤞</div>
+              <div className="timeline-start md:timeline-start text-white">Dic🤞</div>
               <div className="timeline-end md:timeline-end timeline-box">
                 Fin Tecnicatura Programación🥳
               </div>
