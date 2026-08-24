@@ -4,6 +4,7 @@ import Layout from "./layout/Layout";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Work from "./pages/Work";
+import Certificates from "./pages/Certificates";
 import NotFound from "./pages/NotFound";
 import Me from "./pages/Me";
 import ScrollToTop from "./components/ScrollToTop";
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="skills" element={<Skills />} />
           <Route path="work" element={<Work />} />
+          <Route path="/certificates" element={<Certificates />} />
           <Route path="me" element={<Me />} />
         </Route>
           <Route path="*" element={<NotFound />} />
