@@ -1,21 +1,20 @@
 import { useState } from "react";
-
-// Importá tus imágenes de certificados acá:
-// import certReact from "../assets/cert-react.png";
 import fondo1 from "../assets/fondo1.png";
+import desarrollo from "../assets/certificados/programador.jpeg";
+import liderazo from "../assets/certificados/liderazgo.png"
 
 const certificates = [
   {
-    title: "Desarrollo Web React",
-    institution: "CFL / UTN",
-    date: "2025",
-    image: fondo1, // Reemplazá por tu variable de imagen
+    title: "Desarrollo Web",
+    institution: "CFL 404",
+    date: "2024",
+    image: desarrollo, // Reemplazá por tu variable de imagen
   },
   {
-    title: "Liderazgo y Gestión",
+    title: "Liderazgo",
     institution: "Programa Capacitar",
     date: "2026",
-    image: fondo1, // Reemplazá por tu variable de imagen
+    image: liderazo, // Reemplazá por tu variable de imagen
   },
 ];
 
