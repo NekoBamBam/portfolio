@@ -1,20 +1,63 @@
 import { useState } from "react";
 import fondo1 from "../assets/fondo1.png";
 import desarrollo from "../assets/certificados/programador.jpeg";
-import liderazo from "../assets/certificados/liderazgo.png"
+import liderazgo from "../assets/certificados/liderazgo.png";
+import analisis from "../assets/certificados/analisis.png";
+import de0 from "../assets/certificados/de0.png";
+import diseño from "../assets/certificados/diseño.png";
+import mobile from "../assets/certificados/mobile.jpeg";
+import python from "../assets/certificados/python.png";
+import gemini from "../assets/certificados/gemini.png"
+
 
 const certificates = [
   {
     title: "Desarrollo Web",
     institution: "CFL 404",
     date: "2024",
-    image: desarrollo, // Reemplazá por tu variable de imagen
+    image: desarrollo, 
+  },
+  {
+    title: "Desarrollo Mobile",
+    institution: "CFL 404",
+    date: "2025",
+    image: mobile,
+  },
+   {
+    title: "Analisis de Datos",
+    institution: "Linkedin Learning",
+    date: "2026",
+    image: analisis,
+  },
+  {
+    title: "Marketing Digital",
+    institution: "Programo mi futuro",
+    date: "2026",
+    image: de0,
+  },
+  {
+    title: "Diseño Gráfico",
+    institution: "Programo mi futuro",
+    date: "2026",
+    image: diseño,
   },
   {
     title: "Liderazgo",
-    institution: "Programa Capacitar",
+    institution: "Santander Open Academy",
     date: "2026",
-    image: liderazo, // Reemplazá por tu variable de imagen
+    image: liderazgo,
+  },
+  {
+    title: "Python - Introducción",
+    institution: "Santander Open Academy",
+    date: "2026",
+    image: python,
+  },
+  {
+    title: "Gemini",
+    institution: "Santander Open Academy - Google",
+    date: "2026",
+    image: gemini,
   },
 ];
 
