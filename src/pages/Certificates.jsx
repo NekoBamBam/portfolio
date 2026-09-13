@@ -7,7 +7,8 @@ import de0 from "../assets/certificados/de0.png";
 import diseño from "../assets/certificados/diseño.png";
 import mobile from "../assets/certificados/mobile.jpeg";
 import python from "../assets/certificados/python.png";
-import gemini from "../assets/certificados/gemini.png"
+import gemini from "../assets/certificados/gemini.png";
+import diplo from "../assets/certificados/diplo.jpg"
 
 
 const certificates = [
@@ -22,6 +23,12 @@ const certificates = [
     institution: "CFL 404",
     date: "2025",
     image: mobile,
+  },
+  {
+    title: "Deportes Electronicos",
+    institution: "UNLP",
+    date: "2024",
+    image: diplo,
   },
    {
     title: "Analisis de Datos",
